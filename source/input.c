@@ -756,7 +756,7 @@ int input_read_parameters(
   else
     pba->Omega0_ur_fld = 0.;
 
-  printf("pba->Omega0_ur_fld = %e\n",pba->Omega0_ur_fld);
+  //printf("pba->Omega0_ur_fld = %e\n",pba->Omega0_ur_fld);
 
   /** - Omega_0_cdm (CDM) */
   class_call(parser_read_double(pfc,"Omega_cdm",&param1,&flag1,errmsg),
